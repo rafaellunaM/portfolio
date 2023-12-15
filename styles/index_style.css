@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+ }  
+
+
+ body {
+    height: 100vh;
+    background-color: #2c2c2c94;
+    background-size: cover;
+    background-image: url('/imagens/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cicle{
+border: 2px solid #ec8800;
+margin: 1%;
+border-radius: 50%;
+
+}
+
+.cicle:hover{
+
+    opacity: 0.5;
+  
+}
+
+.tools img {
+    margin-right: 10px;
+    opacity: 1;
+
+}
+
+.tools img:hover{
+
+    opacity: 0.5;
+
+}
+
+nav.menu-lateral{
+width: 300px;
+height: 100%;
+}
+
+
+/* @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+ */
+ main{
+    height: 700px;
+    text-align: center;
+    background-color: #2c2c2c94;
+   
+}
+.main-central{
+
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    line-height: 3.5;
+}
+
+ .text p{
+    color: aliceblue;
+    line-height: 1.5;
+    max-width: 300px;
+    text-align: justify;
+    padding: 2%;
+
+}
+
+footer{
+
+    font-size: large;
+   color: white;
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c2c2c94;
+    align-items: flex-end;
+    }
+    footer a{
+     color: white;
+      list-style: none;
+      text-decoration: none;
+    }
+    .teste:hover{
+        background-image: url('/imagens/icons8-github-orange.png');
+    }
+    footer a:hover{
+        color: #ec8800;
+        opacity: 0.75;
+    }
+    .redes_sociais a {
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+ @media (max-width: 450px) {
+
+    .cicle {
+        width: 100px;
+        height: 100px;
+    }
+    .main-central{
+        flex-direction: column-reverse;
+      }
+     
+  
+}
+
+    
