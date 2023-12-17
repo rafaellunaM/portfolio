@@ -19,7 +19,7 @@ menuItem.forEach((item)=>
 var btnExpandir = document.querySelector('#btn-exp')
 var menuSide = document.querySelector('.menu-lateral')
 var listOpen = document.querySelector('.list')
-
+var loading = document.querySelector(".carregar")
 btnExpandir.addEventListener('click', function(){
     menuSide.classList.toggle('expandir')
     listOpen.classList.toggle('open');
