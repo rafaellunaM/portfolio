@@ -18,10 +18,19 @@ menuItem.forEach((item)=>
 
 var btnExpandir = document.querySelector('#btn-exp')
 var menuSide = document.querySelector('.menu-lateral')
+var listOpen = document.querySelector('.list')
 
 btnExpandir.addEventListener('click', function(){
     menuSide.classList.toggle('expandir')
-
+    listOpen.classList.toggle('open');
 
 
 })
+
+var btnClose = document.querySelector('#btn-close')
+
+btnClose.addEventListener('click',function(){
+
+    menuSide.classList.remove('expandir');
+
+} )

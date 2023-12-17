@@ -28,8 +28,15 @@ nav.menu-lateral{
     transition: .5s;
 }
 
+
 nav.menu-lateral.expandir{
     width: 250px;
+}
+
+nav.menu-lateral.close{
+
+
+    width: 60px;
 }
 
 .btn-expandir{
@@ -37,6 +44,12 @@ nav.menu-lateral.expandir{
     padding-left: 10px;
 
 }
+#btn-close {
+    display: none;
+}
+
+
+
 
 .btn-expandir > i{
     color: #fff;
@@ -162,22 +175,30 @@ footer{
     }
 
  @media (max-width: 450px) {
+    main{
+        height: 750px
+    }
     
+  .list {
+
+        display: none;
+    }
+
+    .list.open{
+
+        display: block;
+    }
     nav.menu-lateral{
+        position: absolute;
         width: 60px;
-        height: 6%;
-        background-color: #202020;
-        padding: 40px, 0 40px 1%;
-        box-shadow: 3px 0 0 #ec8800;
-        position: fixed;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-        transition: .5s;
+        height: 7%;
+        background-color: #00000000;
+        box-shadow: 0 0 0 #00000000;
     }
       nav.menu-lateral.expandir{
         width: 100%;
         height: 900px;
+        background-color: #202020;
        
     }
     
@@ -185,10 +206,16 @@ footer{
     font-size: 50px;
 
 }
-ul li.item-menu a{
 
-/*     font-size: 10px; */
+
+.btn-expandir{
+    display: flex;
+    justify-content: space-between;
 }
+#btn-close{
+    display: block;
+    text-align: left;
+   }
     .cicle {
         width: 100px;
         height: 100px;
