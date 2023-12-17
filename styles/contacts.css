@@ -71,7 +71,13 @@ form .btn-enviar_reset input:hover{
     color: white;
 
 }
+
+.links > a:hover{
+  color:  #f08d02;
+
+}
 .links{
+    margin: 20px;
     size: 50px;
     padding: 10px;
     display: flex;
