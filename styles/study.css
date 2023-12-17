@@ -1,14 +1,43 @@
 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+section.estudos {
+    padding: 80px 4%;
+
+}
+h1, h2{
+
+    color: white;
+    margin: 1%;
+}
+.feitos{
+    color: orange;
+}
+.img-port{
+width: 360px;
+height: 150px;
+}
+
+section.estudos .flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img-port:hover {
+opacity: 0.75;
+}
+
+.flex-tutoriais{
     display: flex;
     justify-content: space-evenly;
-    justify-content: center;
     align-items: center;
 }
 
-iframe{
+.link-tutoriais{
 
-
-
-    height: 700px;
+    color: white;
 }

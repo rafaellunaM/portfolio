@@ -53,10 +53,11 @@
                             <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite a sua necessidade"  required ></textarea>                     
                             <input type="email" id="email" placeholder="Digite seu email" required >
                             <input type="text" id="telefone" required  autocomplete="off" maxlength="14" placeholder="Digite seu telefone">
-                            <div class="btn-enviar_reset">
-                                <input type="hidden" name="_next" value="localhost:5500/sucessContact.html">
+                            <input type="hidden" name="_next" value="https://127.0.0.1:5500/sucessContact.html">
+                            <!--  <input type="file" name="attachment" accept="image/png, image/jpeg"> -->
+                            <div class="btn-enviar_reset">                               
                                 <input class="enviar" type="submit" value="ENVIAR">
-                                <!-- <input class="limpar" type="reset" value="LIMPAR"> -->
+                            <!-- <input class="limpar" type="reset" value="LIMPAR"> -->
                             </div>
                     </form>
                     <div class="confirmation-message" id="confirmationMessage">Enviado com sucesso!</div>
@@ -65,8 +66,6 @@
                            <span><i class="bi bi-whatsapp"></i></span>
                             <span>Whatsapp</span>
                         </a>
-        
-        
                         <a href="mailto:rafael.luna.cavalcanti@gmail.com" target="_blank">
                             <span><i class="bi bi-envelope"></i></span>
                             <span>Gmail</span>

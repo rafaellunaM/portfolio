@@ -27,6 +27,10 @@ btnExpandir.addEventListener('click', function(){
 
 })
 
+btnExpandir.addEventListener('mouseover', function(){
+    menuSide.classList.toggle('expandir')
+
+})
 var btnClose = document.querySelector('#btn-close')
 
 btnClose.addEventListener('click',function(){
