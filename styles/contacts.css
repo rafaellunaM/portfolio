@@ -85,7 +85,10 @@ form .btn-enviar_reset input:hover{
     justify-content: space-evenly;
 }
 
+h2{
 
+    color:#ec8800
+}
 
 @media (max-width: 450px) {
     form{
