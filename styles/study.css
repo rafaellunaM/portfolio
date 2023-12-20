@@ -1,7 +1,7 @@
 main{
-    display: flex;
+/*     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 
 section.estudos {
@@ -17,8 +17,11 @@ h1, h2{
     color: orange;
 }
 .img-port{
-width: 360px;
-height: 150px;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    background-size: cover;
 }
 
 section.estudos .flex{
@@ -27,19 +30,43 @@ section.estudos .flex{
 
 }
 
-.img-port:hover {
+.img-port:hover, .img-tutoriais-network:hover, .img-tutoriais-k8s:hover {
 opacity: 0.75;
 }
 
-.flex-tutoriais{
+
+
+section.hackmds {
+    padding: 80px 4%;
+
+}
+
+section.hackmds .flex-tutoriais{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .link-tutoriais{
+    font-size: 15px;
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    margin: 2px;
+}
 
-    color: white;
+
+
+.img-tutoriais-network, .img-tutoriais-k8s{
+
+border-radius: 20px;
+width: 180px;
+height: 50px;
+background-color: white;
+background-size: cover;
+
 }
 
 
@@ -54,14 +81,24 @@ opacity: 0.75;
 
     .flex-tutoriais{
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .img-tutoriais-network, .img-tutoriais-k8s{
+
+        margin: 10px;
     }
 
     .flex{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
 
+    }
+    .img-port{
+
+        margin: 10px;
     }
 }
